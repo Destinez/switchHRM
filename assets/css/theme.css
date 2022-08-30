@@ -62,7 +62,7 @@
   --fg-body-font-weight: 400;
   --fg-body-line-height: 1.45;
   --fg-body-color: #5B7075;
-  --fg-body-bg: #ffffff;
+  --fg-body-bg: #f2f9fc;
 }
 
 :root, :root.light, :root .light {
@@ -6381,6 +6381,7 @@ textarea.form-control-lg {
 .page-header{
   max-height: 30rem;
   background: url("../img/offer/3.png");
+  background-attachment: fixed;
 }
 
 .overlay{
@@ -20252,9 +20253,9 @@ a {
   -webkit-transition-property: color, background-color;
   -o-transition-property: color, background-color;
   transition-property: color, background-color;
-  padding: 1.8rem 1rem;
-  margin: 1.5rem 0;
-  border-radius: 0.312rem;
+  padding: 1rem 1rem;
+  margin: 1rem 0;
+  border-radius: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20262,10 +20263,18 @@ a {
   -ms-flex-align: center;
   align-items: center;
   gap: 1.25rem;
+  width: 85%;
 }
 .offer-list-item:hover {
   background-color: #0A2640;
   color: white;
+}
+
+.features-header{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ea0000;
+
 }
 
 .accordion-button::after {
