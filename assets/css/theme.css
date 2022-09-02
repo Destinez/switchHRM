@@ -20253,9 +20253,9 @@ a {
   -webkit-transition-property: color, background-color;
   -o-transition-property: color, background-color;
   transition-property: color, background-color;
-  padding: 1rem 1rem;
-  margin: 1rem 0;
-  border-radius: 1rem;
+  padding: .8rem .8rem;
+  margin: .5rem 0;
+  border-radius: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20789,3 +20789,12 @@ a {
   object-fit: cover;
 }
 /*# sourceMappingURL=theme.css.map */
+
+.pricing-card{
+  transition: all 1s;
+}
+
+.pricing-card:hover{
+  box-shadow: inset 0px 0px 2rem 0px #bababa73!important;
+  transition: all 1s;
+}
