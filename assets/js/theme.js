@@ -1,3 +1,19 @@
+// $(document).ready(function(){
+//   $(".dropdown-toggle").hover(function(){
+//     $(".dropdown-menu").addClass("show");
+    
+//     }, function(){
+//       $(".dropdown-menu").removeClass("show");
+      
+//   });
+//   $(".dropdown-item").mouseenter(function(){
+//       $(".dropdown-menu").addClass("show");
+//     })
+//     $(".dropdown-item").mouseleave(function(){
+//         $(".dropdown-menu").removeClass("show");
+//       })
+// });
+
 
 $(function(){
 	$(".features-typed").typed({
